@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add expense</title>
+</head>
+<body>
+
+    <div>
+        <form class="expense" method="post" action="#">
+            Add new expense:<br><br>
+            <label>Name</label><br>
+            <input name="name" type="text" maxlength="255" value=""/><br>
+            <label>Description</label><br>
+            <input name="description" type="text" maxlength="255" value=""/><br>
+            <label>Price for piece</label><br>
+            <input name="price" type="number" step=0.01 max="99999.99" value=""/><br>
+            <label>Quantity</label><br>
+            <input name="quantity" type="number" max="99999" value=""/><br>
+            <label>Date</label><br>
+            <input name="date" type="date" value=""/><br>
+            <label>Category id</label><br>
+            <input name="category_id" type="number" value=""/><br>
+            <button type="submit" name="submit" value="">Send</button>
+        </form>
+    </div>
+
+</body>
+</html>
